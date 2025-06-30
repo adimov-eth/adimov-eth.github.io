@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moringa Project Co., Ltd. - Legal Documentation</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Times New Roman', serif;
+            line-height: 1.6;
+            color: #2c3e50;
+            background-color: #f8f9fa;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.2em;
+            margin-bottom: 10px;
+            font-weight: 300;
+        }
+
+        .header .subtitle {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .nav {
+            background: #34495e;
+            padding: 0;
+        }
+
+        .nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .nav li {
+            margin: 0;
+        }
+
+        .nav a {
+            display: block;
+            padding: 15px 25px;
+            color: white;
+            text-decoration: none;
+            transition: background 0.3s;
+            border-right: 1px solid #4a6741;
+        }
+
+        .nav a:hover {
+            background: #4a6741;
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        .document-section {
+            margin-bottom: 50px;
+            padding-bottom: 30px;
+            border-bottom: 2px solid #ecf0f1;
+        }
+
+        .document-section:last-child {
+            border-bottom: none;
+        }
+
+        .doc-header {
+            background: #f8f9fa;
+            padding: 20px;
+            border-left: 5px solid #3498db;
+            margin-bottom: 30px;
+        }
+
+        .doc-header h2 {
+            color: #2c3e50;
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+
+        .doc-header .doc-type {
+            color: #7f8c8d;
+            font-style: italic;
+            font-size: 1.1em;
+        }
+
+        .confidential {
+            background: #fff5f5;
+            border-left-color: #e74c3c;
+            color: #c0392b;
+        }
+
+        .confidential h2 {
+            color: #c0392b;
+        }
+
+        h3 {
+            color: #34495e;
+            font-size: 1.4em;
+            margin: 25px 0 15px 0;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #3498db;
+        }
+
+        h4 {
+            color: #2c3e50;
+            font-size: 1.2em;
+            margin: 20px 0 10px 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: white;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+            vertical-align: top;
+        }
+
+        th {
+            background: #f1f2f6;
+            font-weight: bold;
+            color: #2c3e50;
+            position: sticky;
+            top: 0;
+        }
+
+        tr:hover {
+            background: #f8f9fa;
+        }
+
+        .highlight {
+            background: #fff3cd;
+            padding: 15px;
+            border-left: 4px solid #ffc107;
+            margin: 20px 0;
+        }
+
+        .key-point {
+            background: #d1ecf1;
+            padding: 15px;
+            border-left: 4px solid #17a2b8;
+            margin: 20px 0;
+        }
+
+        .strategy-card {
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .strategy-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .strategy-number {
+            background: #3498db;
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            margin-right: 15px;
+            font-size: 1.1em;
+        }
+
+        .timeline-item {
+            margin: 15px 0;
+            padding-left: 20px;
+            border-left: 3px solid #3498db;
+        }
+
+        .timeline-date {
+            font-weight: bold;
+            color: #e74c3c;
+        }
+
+        .amount {
+            font-weight: bold;
+            color: #27ae60;
+        }
+
+        .negative {
+            color: #e74c3c;
+        }
+
+        .percentage {
+            font-size: 0.9em;
+            padding: 2px 6px;
+            border-radius: 4px;
+            background: #ecf0f1;
+        }
+
+        .up {
+            background: #d5f4e6;
+            color: #27ae60;
+        }
+
+        .down {
+            background: #fadbd8;
+            color: #e74c3c;
+        }
+
+        blockquote {
+            background: #f8f9fa;
+            border-left: 4px solid #6c757d;
+            padding: 15px 20px;
+            margin: 20px 0;
+            font-style: italic;
+        }
+
+        .footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 768px) {
+            .content {
+                padding: 20px;
+            }
+            
+            .nav ul {
+                flex-direction: column;
+            }
+            
+            .nav a {
+                border-right: none;
+                border-bottom: 1px solid #4a6741;
+            }
+            
+            table {
+                font-size: 0.9em;
+            }
+            
+            th, td {
+                padding: 8px 10px;
+            }
+        }
+
+        .scroll-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #3498db;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+            transition: background 0.3s;
+        }
+
+        .scroll-to-top:hover {
+            background: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>บริษัท โครงการมะรุม จำกัด</h1>
+            <div class="subtitle">Moringa Project Co., Ltd. - Legal Documentation Package</div>
+        </div>
+
+        <nav class="nav">
+            <ul>
+                <li><a href="#doc1">Lawyer's Brief</a></li>
+                <li><a href="#doc2">Action Plan</a></li>
+                <li><a href="#doc3">Strategic Options</a></li>
+            </ul>
+        </nav>
+
+        <div class="content">
+            <!-- Document 1: Lawyer's Brief -->
+            <section id="doc1" class="document-section">
+                <div class="doc-header confidential">
+                    <h2>Confidential — Lawyer's Brief</h2>
+                    <div class="doc-type">Re: Protection of Minority Founder Ms Duangduen Kristensen</div>
+                </div>
+
+                <h3>1. Parties</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Current Legal Position</th>
+                            <th>Notes</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Ms Duangduen Kristensen</strong></td>
+                            <td>25% shareholder (50,000 sh.) – <strong>no longer director</strong></td>
+                            <td>Co-founder, claims involuntary removal and zero profit-share</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Ms Marika Nanni</strong></td>
+                            <td>25% shareholder / continuing director</td>
+                            <td>Signs recent filings</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Mr Carlo Nanni</strong></td>
+                            <td>25% shareholder / continuing director</td>
+                            <td>—</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Mr Richard J. Dobson</strong></td>
+                            <td>25% shareholder / continuing director</td>
+                            <td>Orchestrated Feb-2025 meeting in which Duangduen was allegedly removed</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h3>2. Capital & Share Structure (Official Register)</h3>
+                <div class="key-point">
+                    <strong>Registered capital:</strong> THB 2,000,000 – 200,000 ordinary shares @ THB 10<br>
+                    <strong>Paid-up & allotted:</strong> 100% – <strong>50,000 shares each</strong> to the four founders (BoJ.5 dated 23 Jun 2568)
+                </div>
+
+                <blockquote>
+                    <strong>Key implication:</strong> Duangduen still legally owns <strong>25%</strong>; voting power suffices to requisition an EGM (≥ 20% s.1172 CCC) and to block any special resolution (needs 75%).
+                </blockquote>
+
+                <h3>3. Disputed Director Removal</h3>
+                <ul>
+                    <li><strong>BoJ.4 filing of 24 Jun 2568</strong> records one change only: "กรรมการลาออก… (1) น.ส.ดวงเดือน คริสเต็นเซ็น" – i.e. her resignation/removal as director; no new director appointed.</li>
+                    <li>Duangduen insists she <strong>never signed</strong> any resignation and never received proper notice of the February 2025 board/shareholder meeting (see demand letter).</li>
+                </ul>
+
+                <blockquote>
+                    <strong>Possible criminal element:</strong> forged signature / false filing (Thai Penal Code ss.264-268).
+                </blockquote>
+
+                <h3>4. Financial Overview (Public DBD DataWarehouse Screenshots)</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>FY</th>
+                            <th>Revenue (THB)</th>
+                            <th>YoY %</th>
+                            <th>Net Profit / (Loss) (THB)</th>
+                            <th>YoY %</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2563</td>
+                            <td><span class="amount">0.40 m</span></td>
+                            <td>—</td>
+                            <td><span class="amount negative">(1.75 m)</span></td>
+                            <td>—</td>
+                        </tr>
+                        <tr>
+                            <td>2564</td>
+                            <td><span class="amount">1.30 m</span></td>
+                            <td><span class="percentage up">▲ 227%</span></td>
+                            <td><span class="amount negative">(1.74 m)</span></td>
+                            <td><span class="percentage up">▲ 0.6%</span></td>
+                        </tr>
+                        <tr>
+                            <td>2565</td>
+                            <td><span class="amount">1.75 m</span></td>
+                            <td><span class="percentage up">▲ 34%</span></td>
+                            <td><span class="amount negative">(2.70 m)</span></td>
+                            <td><span class="percentage down">▼ 55%</span></td>
+                        </tr>
+                        <tr>
+                            <td>2566</td>
+                            <td><span class="amount">4.99 m</span></td>
+                            <td><span class="percentage up">▲ 185%</span></td>
+                            <td><span class="amount negative">(1.87 m)</span></td>
+                            <td><span class="percentage down">▼ 169%</span></td>
+                        </tr>
+                        <tr style="background: #d5f4e6;">
+                            <td>2567</td>
+                            <td><span class="amount">6.98 m</span></td>
+                            <td><span class="percentage up">▲ 40%</span></td>
+                            <td><span class="amount">2.69 m profit</span></td>
+                            <td><span class="percentage up">Turn-around</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <blockquote>
+                    <strong>Valuation pointer:</strong> Using a modest SME P/E of 4-5× on FY-2567 profit implies enterprise value THB 10-13 m, putting Duangduen's 25% stake at roughly <strong>THB 2.5-3.3 m</strong> – close to her THB 2.5 m settlement demand.
+                </blockquote>
+
+                <h3>5. Timeline of Critical Events</h3>
+                <div class="timeline-item">
+                    <div class="timeline-date">17 May 2019</div>
+                    Company incorporated, capital THB 50,000 (per demand letter) - Four founders equal.
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">4 Dec 2020</div>
+                    Capital increased to THB 2 m (BoJ.4, 23 Jul 2567) - Share split remained 25% each.
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">Feb 2025</div>
+                    Dobson emails notice of meeting; agenda <strong>not</strong> disclosed (demand letter) - Due-process issue.
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">Feb 2025</div>
+                    Meeting proceeds without Duangduen; removal said to have been approved - Disputed.
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">24 Jun 2025</div>
+                    BoJ.4 lodged – removal of Duangduen as director - Trigger of current dispute.
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">24 Jun 2025</div>
+                    Lawyer Chawinroj sends demand letter claiming wrongful removal and seeking <strong>THB 2.5 m</strong> within 15 days.
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">Jun 2025 – present</div>
+                    No response / payment; no dividends declared despite FY 2567 profit - Grounds for oppression claim.
+                </div>
+
+                <h3>6. Issues for Counsel</h3>
+                <ol>
+                    <li><strong>Validity of director removal</strong> - Lack of notice; potential forged signature; contravention of s.1158 CCC (board removal requires shareholder resolution).</li>
+                    <li><strong>Minority oppression / breach of fiduciary duty</strong> - Exclusion from management, denial of information, zero profit distribution while insiders control management remuneration.</li>
+                    <li><strong>Fair-value exit</strong> - Her 25% should be bought at market value, <strong>not</strong> par; provide valuation basis.</li>
+                    <li><strong>Asset-protection</strong> - Risk of asset stripping after FY 2567 profit; consider injunction.</li>
+                    <li><strong>Criminal leverage</strong> - Filing false statements with DBD is an offence; police report may expedite settlement.</li>
+                </ol>
+
+                <h3>7. Immediate Objectives</h3>
+                <ul>
+                    <li><strong>Freeze</strong> further register changes pending investigation.</li>
+                    <li><strong>Secure</strong> full financial data (audited accounts, bank statements, management minutes).</li>
+                    <li><strong>Establish</strong> veracity of BoJ.4 filing (signature comparison, meeting minutes).</li>
+                    <li><strong>Obtain</strong> independent valuation (CPA).</li>
+                    <li><strong>Negotiate</strong> voluntary buy-out at THB 2.5 m + costs – failing which, file oppression / derivative action.</li>
+                </ul>
+
+                <h3>8. Requested Legal Work</h3>
+                <ol>
+                    <li><strong>Corporate registry action</strong> - File petition with DBD to annotate the register as under dispute and to supply certified copies of all filings since 2024.</li>
+                    <li><strong>Police complaint</strong> (forgery / false document).</li>
+                    <li><strong>Shareholder inspection notice</strong> under s.1206 CCC.</li>
+                    <li><strong>EGM requisition</strong> (> 20%) to re-appoint her director or demand dividend declaration.</li>
+                    <li><strong>Valuation engagement letter</strong> – coordinate with PwC or equivalent.</li>
+                    <li><strong>Without-prejudice settlement letter</strong> offering sale of shares at CPA value or company share buy-back under s.1104 bis.</li>
+                    <li><strong>Draft statement of claim</strong> (Civil Court) for buy-out at fair value plus damages; or in the alternative, dissolution on "just & equitable" ground (s.1237 (4)).</li>
+                    <li><strong>Ancillary injunction</strong> to restrain asset disposal / further filings.</li>
+                </ol>
+            </section>
+
+            <!-- Document 2: Action Plan -->
+            <section id="doc2" class="document-section">
+                <div class="doc-header">
+                    <h2>Structured Action Plan</h2>
+                    <div class="doc-type">Protection Strategy for Ms Duangduen Kristensen</div>
+                </div>
+
+                <h3>1. Confirm the Legal Facts – What the Records Now Show</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Item</th>
+                            <th>Latest Filing on Record</th>
+                            <th>Consequence</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Registered capital / share structure</strong></td>
+                            <td>BoJ.5 dated <strong>23 Jun 2568</strong> shows paid-up capital THB 2 million divided into <strong>200,000 shares @ THB 10</strong> each. Four founders still appear, <strong>50,000 shares (25%) each</strong> – Ms Marika Nanni, Mr Carlo Nanni, Ms Duangduen Kristensen, Mr Richard John Dobson.</td>
+                            <td>Duangduen is <em>still</em> a 25% shareholder.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Director status</strong></td>
+                            <td>BoJ.4 dated <strong>24 Jun 2568</strong> registers <em>one</em> change: "กรรมการลาออก… (1) น.ส.ดวงเดือน คริสเต็นเซ็น" – i.e. her <strong>resignation/removal as director</strong>.</td>
+                            <td>She is <strong>no longer a director</strong> but remains a shareholder.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Her objection</strong></td>
+                            <td>Demand letter (24 Jun 2568) states she <strong>never consented</strong> to removal and that papers were filed without authority; seeks <strong>THB 2.5 million</strong> as compensation.</td>
+                            <td>Potential forgery / minority-oppression issue.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Latest performance</strong></td>
+                            <td>DBD DataWarehouse (FY 2566) shows revenue THB 4.99 m (▲ 184.7% YoY) but <strong>net loss THB 1.87 m</strong>; FY 2567 revenue THB 6.98 m and <strong>net profit THB 2.69 m</strong> (turn-around). Screen captures attached.</td>
+                            <td>Going-concern value exists; share price should reflect recovery, not par value.</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h3>2. Your Friend's Rights Under Thai Company Law (Civil & Commercial Code, CCC)</h3>
+                <div class="key-point">
+                    <h4>1. Shareholder rights keep running</h4>
+                    Even after losing her board seat, a 25% holder can:
+                    <ul>
+                        <li>inspect accounts, minutes and statutory filings (s.1138, 1206 CCC);</li>
+                        <li>requisition an extraordinary shareholders' meeting (needs ≥20%: she meets that);</li>
+                        <li>block <em>special</em> resolutions that require ≥75% vote (e.g., capital reduction, disposal of the whole business).</li>
+                    </ul>
+                </div>
+
+                <div class="key-point">
+                    <h4>2. Challenge to forged or misleading filings</h4>
+                    If her "resignation" form was lodged without a genuine signature or proper shareholder resolution, it is a criminal forgery (ss.264-268 Thai Penal Code) and an <em>invalid corporate act</em> (s.1170 CCC). She can ask the Department of Business Development (DBD) to <strong>suspend further changes</strong> pending investigation and simultaneously file a police complaint.
+                </div>
+
+                <div class="key-point">
+                    <h4>3. Oppression / deadlock remedies</h4>
+                    Thai courts recognise derivative and minority-oppression suits under general principles (s.1136, 1174 CCC and Supreme Court precedents). Relief can include:
+                    <ul>
+                        <li>a <strong>buy-out order</strong> at fair value;</li>
+                        <li>dissolution on "just and equitable" grounds (s.1237 (4)).</li>
+                    </ul>
+                </div>
+
+                <h3>3. Valuing Her 25% Stake</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Method</th>
+                            <th>Comment</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Net Asset Value (NAV)</strong> – simplest</td>
+                            <td>Paid-up capital THB 2 m plus retained profits/(losses). FY 2567 swung to a profit of THB 2.69 m; if retained, book equity ≈ THB (2 m + 2.69 m – prior losses). Obtain full balance sheet first.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Earnings Multiple</strong></td>
+                            <td>FY 2567 profit THB 2.69 m. Apply modest SME multiple 4-5× → business worth THB 10-13 m; her 25% ≈ THB 2.5-3.3 m.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Discounted Cash Flow</strong></td>
+                            <td>Needed if growth continues; requires management forecasts (you can compel disclosure).</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="highlight">
+                    Her <strong>THB 2.5 m</strong> demand is within the normal valuation band and easier to defend in mediation or court.
+                </div>
+
+                <h3>4. Step-by-Step Action Plan</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Timing</th>
+                            <th>Action</th>
+                            <th>Purpose</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Immediate (week 1)</strong></td>
+                            <td>• Collect passport signature specimens.<br>• Lodge <strong>police report</strong> + DBD petition alleging forged BoJ.4 filing.</td>
+                            <td>Preserve criminal leverage; may lead DBD to annotate the register as "under dispute".</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Week 2-3</strong></td>
+                            <td>Through a Thai corporate lawyer, serve:<br>1. <strong>Formal shareholder inspection notice</strong> (s.1206).<br>2. <strong>EGM requisition</strong> citing >20% shareholding.</td>
+                            <td>Obtain full audited accounts, management minutes, bank statements. Forces counterparts to reveal dividends, related-party dealings.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Parallel</strong></td>
+                            <td>Engage an <strong>independent CPA</strong> to value the company using NAV + Earnings methods after documents arrive.</td>
+                            <td>Establish objective "fair value" for buy-out or court.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Month 2</strong></td>
+                            <td>Invite settlement/mediation: offer to sell her 50k shares for <strong>THB 2.5 m</strong> (or CPA value) <em>or</em> propose company share buy-back (s.1104 bis).</td>
+                            <td>Shows reasonableness; strengthens later court claim for costs/interest.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>If refused</strong></td>
+                            <td>File a <strong>minority-oppression suit</strong> in the Civil Court (or IP & IT Court if IP issues) seeking:<br>• forced share purchase at fair value <strong>plus</strong> damages;<br>• alternatively, dissolution & liquidation.</td>
+                            <td>Court can compel financial disclosure and appoint an independent valuer; threat of winding-up usually pushes settlement.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Contingency</strong></td>
+                            <td>Apply for <strong>injunction</strong> to stop further share transfers or asset stripping while the case is heard.</td>
+                            <td>Protect asset base during litigation.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <!-- Document 3: Strategic Options -->
+            <section id="doc3" class="document-section">
+                <div class="doc-header">
+                    <h2>Three High-Leverage Strategies</h2>
+                    <div class="doc-type">Strategic Options to Secure a Fair Exit for Ms Duangduen</div>
+                </div>
+
+                <div class="strategy-card">
+                    <h3><span class="strategy-number">1</span>"Freeze-and-Negotiate" Combo</h3>
+                    <h4>DBD annotation + criminal leverage + mediated settlement</h4>
+                    <p><strong>Strategy:</strong> Stops further hostile actions while creating maximum pressure to settle quickly. Criminal-forgery exposure and a public "under-dispute" flag on the register sharply raise the counter-parties' risk, pushing them toward a cash-out deal without full litigation.</p>
+                    
+                    <p><strong>Why It's Efficient:</strong></p>
+                    <ul>
+                        <li><strong>Week 1–2</strong> – File petition with DBD to annotate the register as disputed and lodge a police report over the forged resignation.</li>
+                        <li><strong>Week 3</strong> – Serve without-prejudice letter offering to sell her 50k shares for THB 2.5 m (supported by CPA desktop valuation).</li>
+                        <li><strong>Month 1</strong> – Enter formal mediation (Lawyer Council or Thai Mediation Center).</li>
+                        <li><strong>Outcome:</strong> 70-80% of Thai SME founder disputes settle once criminal exposure is on record and a fair valuation is tabled.</li>
+                    </ul>
+                </div>
+
+                <div class="strategy-card">
+                    <h3><span class="strategy-number">2</span>"Information-Access Blitz" + Targeted Injunction</h3>
+                    <p><strong>Strategy:</strong> Uses Duangduen's 25% stake to compel transparency and freeze asset movements while suit is prepared. Rapid disclosure often uncovers weaknesses (e.g., unapproved director bonuses) that make the other side eager to buy her out.</p>
+                    
+                    <p><strong>Key Moves & Expected Timeline:</strong></p>
+                    <ul>
+                        <li><strong>Week 1</strong> – Issue shareholder inspection notice (s.1206 CCC) demanding audited accounts, board minutes, bank records.</li>
+                        <li><strong>Week 2</strong> – Requisition an Extraordinary GM (> 20%) to question management and record objections.</li>
+                        <li><strong>Week 3</strong> – If red flags appear, file motion for an interim injunction to bar asset transfers or new share issues.</li>
+                        <li><strong>Month 2</strong> – Present updated valuation and re-open settlement talks; failing that, fast-track a minority-oppression claim.</li>
+                    </ul>
+                </div>
+
+                <div class="strategy-card">
+                    <h3><span class="strategy-number">3</span>"Forced-Buy-Out Litigation with Early Settlement Hooks"</h3>
+                    <p><strong>Strategy:</strong> Treats civil suit as a negotiation tool, structuring pleadings to make settlement cheaper than fighting. Thai courts can order a buy-out at fair value; the threat alone often short-circuits the process.</p>
+                    
+                    <p><strong>Key Moves & Expected Timeline:</strong></p>
+                    <ul>
+                        <li><strong>Month 1</strong> – Engage CPA for full valuation; draft statement of claim (oppression, alt. dissolution) but do <strong>not</strong> file yet.</li>
+                        <li><strong>Month 2</strong> – Send final demand enclosing draft claim and expert valuation, giving 14 days to agree terms.</li>
+                        <li><strong>If ignored:</strong> File suit and request court-appointed valuer; simultaneously apply for costs and 7.5% statutory interest.</li>
+                        <li><strong>Typical result:</strong> Opponents settle within 3–6 months when faced with court-mandated valuation and risk of company wind-up.</li>
+                    </ul>
+                </div>
+
+                <h3>Choosing the Right Path</h3>
+                <div class="highlight">
+                    <p><strong>If they show any willingness to talk,</strong> start with <strong>Strategy 1</strong>—it's fastest and least expensive.</p>
+                    <p><strong>If they stonewall but haven't stripped assets,</strong> pivot to <strong>Strategy 2</strong> to gather evidence and lock the business down.</p>
+                    <p><strong>If they remain hostile or start dissipating value,</strong> escalate to <strong>Strategy 3</strong>, keeping settlement open at every stage.</p>
+                </div>
+                
+                <p>Each strategy can be initiated immediately, and all three can be sequenced (1 → 2 → 3) without losing momentum.</p>
+            </section>
+        </div>
+
+        <div class="footer">
+            <p>This documentation is for informational purposes only and does not constitute legal advice. 
+            Please consult with qualified Thai legal counsel for specific guidance.</p>
+        </div>
+    </div>
+
+    <button class="scroll-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})" title="Scroll to top">↑</button>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('.nav a').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Show/hide scroll to top button
+        window.addEventListener('scroll', function() {
+            const scrollButton = document.querySelector('.scroll-to-top');
+            if (window.pageYOffset > 300) {
+                scrollButton.style.display = 'block';
+            } else {
+                scrollButton.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
