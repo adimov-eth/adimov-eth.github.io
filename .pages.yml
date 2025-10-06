@@ -1,0 +1,8 @@
+# Cloudflare Pages build configuration
+build:
+  command: npm install && npx quartz build
+  output: public
+
+# Disable Functions (static site only)
+functions:
+  enabled: false
