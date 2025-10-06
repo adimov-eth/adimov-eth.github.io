@@ -13,15 +13,15 @@
 ### Market Size (Validated 2024-2025)
 
 - **700K golf tourists annually** to Thailand (TAT, AGIF data)
-- **~฿100K spend per trip** (3× average tourist)
+- **~฿100K spend per trip** (3× average tourist) - *historical 2011 estimate, needs validation*
 - **~300 golf courses** nationwide (150-200 international standard)
-- Historical 2012 market value: ฿86B; 2025 likely higher adjusted for volume/inflation
+- Historical 2012 market value: ฿86B (not current); 2025 likely higher adjusted for volume/inflation
 
 ### Distribution Reality
 
-- **60-70% of bookings** handled by agents via manual workflows (phone/LINE/email)
-- **Only 15-20% of courses** have modern API-ready systems
-- **50-55% of courses** still fully manual (accept this reality)
+- **Majority of bookings** handled by agents via manual workflows (phone/LINE/email)
+- **Only a minority of courses** have modern API-ready systems
+- **Many courses** still fully manual (accept this reality)
 - Fragmented, inefficient processes dominate the market
 
 ### Digital Infrastructure Ready

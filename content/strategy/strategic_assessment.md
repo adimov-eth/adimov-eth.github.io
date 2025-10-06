@@ -8,7 +8,7 @@
 
 ## Executive Summary
 
-**The opportunity is real.** Thailand attracts ~700,000 golf tourists annually spending ~฿100K/trip (3× average tourist). ~300 golf courses, fragmented booking (60-70% via agents), clear digital white space. Your assets provide credible entry: TAT-licensed entity operational, Tan's working agency, Investor's transport network.
+**The opportunity is real.** Thailand attracts ~700,000 golf tourists annually spending ~฿100K/trip (3× average tourist, historical 2011 estimate). ~300 golf courses, fragmented booking (majority via agents), clear digital white space. Your assets provide credible entry: TAT-licensed entity operational, Tan's working agency, Investor's transport network.
 
 **Strategy: Direct package sales.** Not building SaaS for competitors. Automate Tan's operation, scale package volume, reach profitability fast. $1,000/package margin vs $300/month SaaS seat—the path to profitability is packages.
 
@@ -31,12 +31,12 @@
 
 **Market size:**
 - 700K golf tourists annually (TAT, AGIF)
-- ~฿100K spend per trip (3× average tourist)
+- ~฿100K spend per trip (3× average tourist) - *historical 2011 estimate*
 - ~300 golf courses (150-200 international standard)
 
 **Distribution reality:**
-- 60-70% bookings via agents (phone/LINE/email)
-- Only 15-20% courses have modern APIs
+- Majority of bookings via agents (phone/LINE/email)
+- Only a minority of courses have modern APIs
 - Fragmented, manual workflows dominate
 
 **Digital infrastructure:**
@@ -256,7 +256,7 @@
 
 ## Part 7: Recommendation
 
-**Opportunity: Real.** 700K golf tourists, ฿100K/trip, fragmented market, weak incumbents.
+**Opportunity: Real.** 700K golf tourists, ฿100K/trip (historical est.), fragmented market, weak incumbents.
 
 **Strategy: Direct package sales.** Automate Tan's operation, scale volume, reach profitability fast. Not building SaaS for competitors—processing packages yourself.
 

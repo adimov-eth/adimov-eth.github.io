@@ -14,9 +14,9 @@ Automate Tan's existing golf tour operation to process 20-30 packages in 90 days
 
 ## Market Context
 
-- 700K golf tourists visit Thailand annually, spending ~฿100K per trip
-- 60-70% of bookings handled by agents via manual workflows (phone/LINE/email)
-- Only 15-20% of courses have modern APIs; majority still manual
+- 700K golf tourists visit Thailand annually, spending ~฿100K per trip (historical 2011 estimate)
+- Majority of bookings handled by agents via manual workflows (phone/LINE/email)
+- Only a minority of courses have modern APIs; majority still manual
 - Incumbents (Club Thailand Card, Golfasian, GolfNow) have weak digital offerings
 - **GolfOkay = Tan's TAT-licensed company:** Can sell packages as seller-of-record immediately
 

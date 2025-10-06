@@ -155,16 +155,16 @@ Basically: digital replacement for paper booking confirmations, critical for hyb
 
 ## Hybrid Integration Approach
 
-**The reality:** Only 15-20% of Thai golf courses have modern APIs. 50-55% are fully manual (phone/LINE only).
+**The reality:** Only a minority of Thai golf courses have modern APIs. Many are fully manual (phone/LINE only).
 
 **GolfOkay's approach:**
 1. **Aggregator APIs (immediate):** Golfsavers, GolfThai for 200-500 courses
 2. **Direct course APIs (selective):** Golfmanager, Lightspeed where volume justifies effort
-3. **Manual desk (50-55%):** Human staff handle phone/LINE confirmations
+3. **Manual desk (for manual courses):** Human staff handle phone/LINE confirmations
 
 **Why hybrid:**
 - Can't API-connect every course (they don't have systems)
-- Aggregators provide instant inventory but miss 50% of market
+- Aggregators provide instant inventory but miss significant portion of market
 - Manual desk is NOT a failure—it's accepting market reality
 
 **Automation targets:**

@@ -56,9 +56,9 @@
 ## Why Manual Desk is Necessary
 
 **Distribution reality:**
-- Only 15-20% courses have modern APIs
-- 50-55% fully manual (phone/LINE only)
-- Even with [[aggregator_apis|aggregators]], miss 50% of market
+- Only a minority of courses have modern APIs
+- Many fully manual (phone/LINE only)
+- Even with [[aggregator_apis|aggregators]], miss significant portion of market
 
 **Alternative (rejected):**
 - Only work with API-ready courses → Lose 50% of inventory
@@ -89,14 +89,14 @@ Even manual bookings benefit from automation:
 
 ## Manual Desk vs Automation Comparison
 
-### Fully Automated (15-20% of courses)
+### Fully Automated (minority of courses)
 - [[aggregator_apis|Aggregator API]] or direct course API
 - Real-time availability check
 - Instant confirmation
 - E-voucher generated immediately
 - **Operator time:** 0 minutes
 
-### Manual with Automation Support (50-55% of courses)
+### Manual with Automation Support (many courses)
 - System captures inquiry, routes to operator
 - Operator checks pre-negotiated time windows
 - Calls/LINE messages course

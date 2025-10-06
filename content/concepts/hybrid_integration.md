@@ -1,13 +1,13 @@
 # Hybrid Integration
 
-GolfOkay's core technical strategy: Accept that 50-55% of Thai golf courses will never have APIs. Build for that reality.
+GolfOkay's core technical strategy: Accept that many Thai golf courses will never have APIs. Build for that reality.
 
 ## The Reality
 
-**Course digital readiness:**
-- 15-20%: Modern systems with APIs (Golfmanager, Lightspeed, etc.)
-- 25-30%: Basic websites, no real-time booking
-- 50-55%: Manual only (phone, LINE, email)
+**Course digital readiness (working estimates):**
+- Minority: Modern systems with APIs (Golfmanager, Lightspeed, etc.)
+- Some: Basic websites, no real-time booking
+- Many: Manual only (phone, LINE, email)
 
 **Not a failure.** This is the market. Waiting for full automation = waiting forever.
 

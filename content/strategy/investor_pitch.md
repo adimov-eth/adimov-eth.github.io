@@ -9,10 +9,10 @@
 ### Key Metrics
 
 - **700K** Golf tourists annually
-- **~฿100K** Spend per trip (3x average tourist)
+- **~฿100K** Spend per trip (3x average tourist) - *historical 2011 estimate*
 - **~300** Golf courses (150-200 international)
 
-**Distribution reality:** 60-70% bookings via agents using phone/LINE/email. Only 15-20% of courses have modern APIs. Fragmented, manual workflows dominate.
+**Distribution reality:** Majority of bookings via agents using phone/LINE/email. Only a minority of courses have modern APIs. Fragmented, manual workflows dominate.
 
 **Competitor weakness:** Club Thailand Card (15K members, legacy UX), Golfasian (192K customers, email-only), GolfNow (weak local penetration). No unified platform with real-time booking + transport + accommodation.
 

@@ -6,20 +6,20 @@
 
 ## Current Distribution (2025)
 
-**60-70% of golf bookings in Thailand handled by agents via manual workflows:**
+**Majority of golf bookings in Thailand handled by agents via manual workflows:**
 - Phone calls to courses
 - LINE chat confirmations
 - Email back-and-forth
 - Spreadsheets for tracking
 - Manual payment collection
 
-**Only 15-20% of courses have modern API-ready systems:**
+**Only a minority of courses have modern API-ready systems:**
 - POS systems with booking APIs (Golfmanager, Lightspeed)
 - Online booking widgets
 - Real-time inventory management
 - Automated confirmation emails
 
-**50-55% of courses are fully manual:**
+**Many courses are fully manual:**
 - Accept reservations only via phone or LINE
 - No booking software (paper logbooks or basic Excel)
 - No website or booking widget
@@ -91,21 +91,23 @@
 
 ## Distribution by Course Tier
 
-### Premium International Courses (15-20%)
+*Note: These are working estimates for operational planning, not verified market data.*
+
+### Premium International Courses (~15-20% est.)
 - Modern POS systems (Golfmanager, Lightspeed)
 - APIs available
 - Online booking widgets
 - High green fees (฿3,000-6,000+)
 - **GolfOkay approach:** Direct API integration or aggregators
 
-### Mid-Tier Local Favorites (30-35%)
+### Mid-Tier Local Favorites (~30-35% est.)
 - Basic booking software or Excel
 - Some on aggregator platforms (Golfsavers, GolfThai)
 - Mix of API and manual
 - Medium green fees (฿1,500-3,000)
 - **GolfOkay approach:** Aggregators + selective manual desk
 
-### Budget/Local Courses (45-50%)
+### Budget/Local Courses (~45-50% est.)
 - Phone/LINE only
 - Paper logbooks or simple Excel
 - Not on aggregators
