@@ -44,6 +44,38 @@
 | **Digital wallets 22 % POS** | ⚠️ Possibly global | Use local data; emphasise PromptPay growth. |
 | **93 countries 60‑day visa** | ✅ Verified [thaiembassy.com](https://www.thaiembassy.com/thailand-visa/visa-free-period-in-thailand-to-be-changed-again-reduced-to-30-days#:~:text=As%20of%20March%202025%2C%20travelers,were%20limited%20to%2030%20days) | Policy introduced July 2024; may change. |
 
+## Market Size Calculation & Global Context
+
+### Global Golf Tourism (2025)
+
+- **Global market:** ~US$14.87 billion (2025 projection), showing slight decline from $14.94B in 2024 (-0.5% CAGR projected through 2033)
+- **Asia-Pacific market:** ~US$5-6 billion in 2025, projected to reach US$8.74 billion by 2030 (9.9% CAGR from 2025-2030)
+
+### Thailand Market Size Calculation
+
+**Based on verified data:**
+- Confirmed visitor volume: **700,000 golf tourists/year** ✅
+- Historical spend estimate: **฿100,000 per trip** (~US$3,300) from 2011 ⚠️
+
+**Calculation:**
+- Simple estimate: 700,000 × ฿100,000 = **฿70 billion** (~US$2 billion)
+- With growth/inflation adjustment: likely **฿70-90 billion range**
+
+**Historical reference:**
+- 2012 market: **฿86 billion** (based on 750,000 visitors at ฿100K+ spend)
+
+### Key Gaps
+
+1. **No official 2025 spend data:** The ฿100,000 figure is from 2011 Golfasian estimate
+2. **Need current spending survey:** Tourism Authority of Thailand has not published updated per-trip spending
+3. **Conservative estimate:** Use ฿70-90B range for planning; ฿86B should be labeled "historical 2012 figure"
+
+### Thailand's Share of Regional Market
+
+- If Thailand = ~฿80B (~$2.3B) and Asia-Pacific = ~$5-6B
+- Thailand represents **~40% of Asia-Pacific golf tourism market**
+- Dominant position in region, but growth may be limited by global market contraction
+
 ## Recommendations for Website & Pitch Revisions
 
 1. **Update market size data:** Remove or clearly label historical figures (฿86 B, ฿100K per trip). Commission a 2024–2025 spending study to provide current estimates.
