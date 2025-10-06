@@ -1,6 +1,6 @@
 # Cloudflare Pages build configuration
 build:
-  command: npm install && npx quartz build
+  command: npm install && npx quartz build && cp CNAME public/CNAME
   output: public
 
 # Disable Functions (static site only)
